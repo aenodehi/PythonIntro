@@ -1,13 +1,3 @@
-
-```{r, include=FALSE, echo=FALSE}
-require(knitr)
-knitr::opts_chunk$set(eval=TRUE, results=TRUE, message=FALSE, warning=FALSE, error=FALSE,
-                      python.reticulate=TRUE, fig.path="Python/PythonIntro/figures/")
-knitr::opts_knit$set(root.dir="Python/PythonIntro") # base.url = "/" # base.dir="Python/PythonIntro"
-require(reticulate)
-use_condaenv(condaenv="r-reticulate", required=TRUE)
-```
-
 # Python Introduction
 
 **Topics**
